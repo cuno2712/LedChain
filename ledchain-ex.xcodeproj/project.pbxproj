@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2701CCE61D5787010067161F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2701CCE51D5787010067161F /* main.m */; };
+		2701CCE91D5787010067161F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2701CCE81D5787010067161F /* AppDelegate.m */; };
+		2701CCEC1D5787010067161F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2701CCEB1D5787010067161F /* ViewController.m */; };
+		2701CCEF1D5787010067161F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2701CCED1D5787010067161F /* Main.storyboard */; };
+		2701CCF11D5787010067161F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2701CCF01D5787010067161F /* Assets.xcassets */; };
+		2701CCF41D5787010067161F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2701CCF21D5787010067161F /* LaunchScreen.storyboard */; };
+		2701CCFF1D5787010067161F /* ledchain_exTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2701CCFE1D5787010067161F /* ledchain_exTests.m */; };
+		2701CD0A1D5787010067161F /* ledchain_exUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2701CD091D5787010067161F /* ledchain_exUITests.m */; };
+		27FF0DD91D57A83500159D82 /* led.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FF0DD81D57A83500159D82 /* led.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2701CCFB1D5787010067161F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2701CCD91D5787010067161F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2701CCE01D5787010067161F;
+			remoteInfo = "ledchain-ex";
+		};
+		2701CD061D5787010067161F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2701CCD91D5787010067161F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2701CCE01D5787010067161F;
+			remoteInfo = "ledchain-ex";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2701CCE11D5787010067161F /* ledchain-ex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ledchain-ex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2701CCE51D5787010067161F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2701CCE71D5787010067161F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2701CCE81D5787010067161F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2701CCEA1D5787010067161F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2701CCEB1D5787010067161F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2701CCEE1D5787010067161F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2701CCF01D5787010067161F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2701CCF31D5787010067161F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2701CCF51D5787010067161F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2701CCFA1D5787010067161F /* ledchain-exTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ledchain-exTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2701CCFE1D5787010067161F /* ledchain_exTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ledchain_exTests.m; sourceTree = "<group>"; };
+		2701CD001D5787010067161F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2701CD051D5787010067161F /* ledchain-exUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ledchain-exUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2701CD091D5787010067161F /* ledchain_exUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ledchain_exUITests.m; sourceTree = "<group>"; };
+		2701CD0B1D5787010067161F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FF0DD81D57A83500159D82 /* led.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = led.png; path = image/led.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2701CCDE1D5787010067161F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2701CCF71D5787010067161F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2701CD021D5787010067161F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2701CCD81D5787010067161F = {
+			isa = PBXGroup;
+			children = (
+				2701CCE31D5787010067161F /* ledchain-ex */,
+				2701CCFD1D5787010067161F /* ledchain-exTests */,
+				2701CD081D5787010067161F /* ledchain-exUITests */,
+				2701CCE21D5787010067161F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2701CCE21D5787010067161F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2701CCE11D5787010067161F /* ledchain-ex.app */,
+				2701CCFA1D5787010067161F /* ledchain-exTests.xctest */,
+				2701CD051D5787010067161F /* ledchain-exUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2701CCE31D5787010067161F /* ledchain-ex */ = {
+			isa = PBXGroup;
+			children = (
+				2701CD171D578C130067161F /* image */,
+				2701CCE71D5787010067161F /* AppDelegate.h */,
+				2701CCE81D5787010067161F /* AppDelegate.m */,
+				2701CCEA1D5787010067161F /* ViewController.h */,
+				2701CCEB1D5787010067161F /* ViewController.m */,
+				2701CCED1D5787010067161F /* Main.storyboard */,
+				2701CCF01D5787010067161F /* Assets.xcassets */,
+				2701CCF21D5787010067161F /* LaunchScreen.storyboard */,
+				2701CCF51D5787010067161F /* Info.plist */,
+				2701CCE41D5787010067161F /* Supporting Files */,
+			);
+			path = "ledchain-ex";
+			sourceTree = "<group>";
+		};
+		2701CCE41D5787010067161F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2701CCE51D5787010067161F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2701CCFD1D5787010067161F /* ledchain-exTests */ = {
+			isa = PBXGroup;
+			children = (
+				2701CCFE1D5787010067161F /* ledchain_exTests.m */,
+				2701CD001D5787010067161F /* Info.plist */,
+			);
+			path = "ledchain-exTests";
+			sourceTree = "<group>";
+		};
+		2701CD081D5787010067161F /* ledchain-exUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2701CD091D5787010067161F /* ledchain_exUITests.m */,
+				2701CD0B1D5787010067161F /* Info.plist */,
+			);
+			path = "ledchain-exUITests";
+			sourceTree = "<group>";
+		};
+		2701CD171D578C130067161F /* image */ = {
+			isa = PBXGroup;
+			children = (
+				27FF0DD81D57A83500159D82 /* led.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2701CCE01D5787010067161F /* ledchain-ex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2701CD0E1D5787010067161F /* Build configuration list for PBXNativeTarget "ledchain-ex" */;
+			buildPhases = (
+				2701CCDD1D5787010067161F /* Sources */,
+				2701CCDE1D5787010067161F /* Frameworks */,
+				2701CCDF1D5787010067161F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ledchain-ex";
+			productName = "ledchain-ex";
+			productReference = 2701CCE11D5787010067161F /* ledchain-ex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2701CCF91D5787010067161F /* ledchain-exTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2701CD111D5787010067161F /* Build configuration list for PBXNativeTarget "ledchain-exTests" */;
+			buildPhases = (
+				2701CCF61D5787010067161F /* Sources */,
+				2701CCF71D5787010067161F /* Frameworks */,
+				2701CCF81D5787010067161F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2701CCFC1D5787010067161F /* PBXTargetDependency */,
+			);
+			name = "ledchain-exTests";
+			productName = "ledchain-exTests";
+			productReference = 2701CCFA1D5787010067161F /* ledchain-exTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2701CD041D5787010067161F /* ledchain-exUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2701CD141D5787010067161F /* Build configuration list for PBXNativeTarget "ledchain-exUITests" */;
+			buildPhases = (
+				2701CD011D5787010067161F /* Sources */,
+				2701CD021D5787010067161F /* Frameworks */,
+				2701CD031D5787010067161F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2701CD071D5787010067161F /* PBXTargetDependency */,
+			);
+			name = "ledchain-exUITests";
+			productName = "ledchain-exUITests";
+			productReference = 2701CD051D5787010067161F /* ledchain-exUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2701CCD91D5787010067161F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tan;
+				TargetAttributes = {
+					2701CCE01D5787010067161F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 93KD9LL8VN;
+					};
+					2701CCF91D5787010067161F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 93KD9LL8VN;
+						TestTargetID = 2701CCE01D5787010067161F;
+					};
+					2701CD041D5787010067161F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 93KD9LL8VN;
+						TestTargetID = 2701CCE01D5787010067161F;
+					};
+				};
+			};
+			buildConfigurationList = 2701CCDC1D5787010067161F /* Build configuration list for PBXProject "ledchain-ex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2701CCD81D5787010067161F;
+			productRefGroup = 2701CCE21D5787010067161F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2701CCE01D5787010067161F /* ledchain-ex */,
+				2701CCF91D5787010067161F /* ledchain-exTests */,
+				2701CD041D5787010067161F /* ledchain-exUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2701CCDF1D5787010067161F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2701CCF41D5787010067161F /* LaunchScreen.storyboard in Resources */,
+				2701CCF11D5787010067161F /* Assets.xcassets in Resources */,
+				2701CCEF1D5787010067161F /* Main.storyboard in Resources */,
+				27FF0DD91D57A83500159D82 /* led.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2701CCF81D5787010067161F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2701CD031D5787010067161F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2701CCDD1D5787010067161F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2701CCEC1D5787010067161F /* ViewController.m in Sources */,
+				2701CCE91D5787010067161F /* AppDelegate.m in Sources */,
+				2701CCE61D5787010067161F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2701CCF61D5787010067161F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2701CCFF1D5787010067161F /* ledchain_exTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2701CD011D5787010067161F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2701CD0A1D5787010067161F /* ledchain_exUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2701CCFC1D5787010067161F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2701CCE01D5787010067161F /* ledchain-ex */;
+			targetProxy = 2701CCFB1D5787010067161F /* PBXContainerItemProxy */;
+		};
+		2701CD071D5787010067161F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2701CCE01D5787010067161F /* ledchain-ex */;
+			targetProxy = 2701CD061D5787010067161F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2701CCED1D5787010067161F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2701CCEE1D5787010067161F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2701CCF21D5787010067161F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2701CCF31D5787010067161F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2701CD0C1D5787010067161F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2701CD0D1D5787010067161F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2701CD0F1D5787010067161F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ledchain-ex/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tan.ledchain-ex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2701CD101D5787010067161F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ledchain-ex/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tan.ledchain-ex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2701CD121D5787010067161F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ledchain-exTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tan.ledchain-exTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ledchain-ex.app/ledchain-ex";
+			};
+			name = Debug;
+		};
+		2701CD131D5787010067161F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ledchain-exTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tan.ledchain-exTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ledchain-ex.app/ledchain-ex";
+			};
+			name = Release;
+		};
+		2701CD151D5787010067161F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ledchain-exUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tan.ledchain-exUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ledchain-ex";
+			};
+			name = Debug;
+		};
+		2701CD161D5787010067161F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ledchain-exUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tan.ledchain-exUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ledchain-ex";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2701CCDC1D5787010067161F /* Build configuration list for PBXProject "ledchain-ex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2701CD0C1D5787010067161F /* Debug */,
+				2701CD0D1D5787010067161F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2701CD0E1D5787010067161F /* Build configuration list for PBXNativeTarget "ledchain-ex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2701CD0F1D5787010067161F /* Debug */,
+				2701CD101D5787010067161F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2701CD111D5787010067161F /* Build configuration list for PBXNativeTarget "ledchain-exTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2701CD121D5787010067161F /* Debug */,
+				2701CD131D5787010067161F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2701CD141D5787010067161F /* Build configuration list for PBXNativeTarget "ledchain-exUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2701CD151D5787010067161F /* Debug */,
+				2701CD161D5787010067161F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2701CCD91D5787010067161F /* Project object */;
+}
