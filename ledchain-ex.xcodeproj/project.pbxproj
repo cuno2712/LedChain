@@ -15,8 +15,12 @@
 		2701CCF41D5787010067161F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2701CCF21D5787010067161F /* LaunchScreen.storyboard */; };
 		2701CCFF1D5787010067161F /* ledchain_exTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2701CCFE1D5787010067161F /* ledchain_exTests.m */; };
 		2701CD0A1D5787010067161F /* ledchain_exUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2701CD091D5787010067161F /* ledchain_exUITests.m */; };
+<<<<<<< HEAD
 		2732D9C31D5A3AC000466529 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 2732D9C11D5A3AC000466529 /* blue.png */; };
 		2732D9C41D5A3AC000466529 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 2732D9C21D5A3AC000466529 /* green.png */; };
+=======
+		27FF0DD91D57A83500159D82 /* led.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FF0DD81D57A83500159D82 /* led.png */; };
+>>>>>>> 532430883a747c7196921eea5bbd5896faeb3133
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +57,12 @@
 		2701CD051D5787010067161F /* ledchain-exUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ledchain-exUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2701CD091D5787010067161F /* ledchain_exUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ledchain_exUITests.m; sourceTree = "<group>"; };
 		2701CD0B1D5787010067161F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		2732D9C11D5A3AC000466529 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = image/blue.png; sourceTree = "<group>"; };
 		2732D9C21D5A3AC000466529 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = image/green.png; sourceTree = "<group>"; };
+=======
+		27FF0DD81D57A83500159D82 /* led.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = led.png; path = image/led.png; sourceTree = "<group>"; };
+>>>>>>> 532430883a747c7196921eea5bbd5896faeb3133
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +156,12 @@
 		2701CD171D578C130067161F /* image */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				2732D9C11D5A3AC000466529 /* blue.png */,
 				2732D9C21D5A3AC000466529 /* green.png */,
+=======
+				27FF0DD81D57A83500159D82 /* led.png */,
+>>>>>>> 532430883a747c7196921eea5bbd5896faeb3133
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -262,9 +274,14 @@
 			files = (
 				2701CCF41D5787010067161F /* LaunchScreen.storyboard in Resources */,
 				2701CCF11D5787010067161F /* Assets.xcassets in Resources */,
+<<<<<<< HEAD
 				2732D9C41D5A3AC000466529 /* green.png in Resources */,
 				2701CCEF1D5787010067161F /* Main.storyboard in Resources */,
 				2732D9C31D5A3AC000466529 /* blue.png in Resources */,
+=======
+				2701CCEF1D5787010067161F /* Main.storyboard in Resources */,
+				27FF0DD91D57A83500159D82 /* led.png in Resources */,
+>>>>>>> 532430883a747c7196921eea5bbd5896faeb3133
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
